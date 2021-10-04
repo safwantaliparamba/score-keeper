@@ -1,0 +1,79 @@
+#section{
+    background-color: rgb(78, 240, 186);
+    width: 70%;
+    height: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius:3em;
+    padding: 2em;
+    border: 8px solid grey;
+    display: block;
+}
+h1{
+    color: rgb(9, 20, 53);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+*{
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+hr{
+    width: 90%;
+    height: 3px;
+    background-color: black;
+}
+
+
+.player1 , .player2{
+    text-align: none;
+    display: inline-block;
+    margin: 0 3em;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+button{
+    color: rgb(0, 0, 0);
+    
+    padding: .5em;
+    border-radius:10px;
+    margin: 0 .5em;
+    width: 10em;
+    height: auto;
+}
+
+button.one{
+    background-color:rgb(21, 255, 60);
+}
+button.two{
+    background-color:rgb(21, 142, 255);
+}
+button.three{
+    background-color:rgb(255, 21, 21);
+}
+@media only screen and (max-width:786px){
+    button{
+        margin: 10px;
+        display: block;
+        
+    }
+
+    .buttons{
+        display: flex;
+        
+    }
+}
+select{
+    border-radius: 30px;
+    background-color: yellow;
+}
